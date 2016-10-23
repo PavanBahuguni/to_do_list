@@ -10,11 +10,11 @@ function appController($scope, $http){
 		console.log("Error"+data);
 	});
 	
-	$scope.createTask=function(){
+	$scope.createTask = function(){
 		$http.post('/rest/tasks', $scope.formData)
 			.success(function(data){
-				$scope.formData={};
 				$scope.tasks=data;
+				$scope.formData={};
 				console.log("new task succesfully added!");
 			}).error(function(data){
 				console.log("Error", data);
