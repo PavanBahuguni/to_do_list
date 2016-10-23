@@ -9,5 +9,12 @@ demo at https://mean-to-do-list.herokuapp.com/
 1. Download and Install nodejs from https://nodejs.org/en/download/<br>
 2. Clone this Project.</br>
 3. Change current working directory to project directory and run the command.</br> 
-    **npm install**
+    ```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
+    This will install all the necessary modules.
+5. Create a mongodb database and add the url in development.js. development.js should look something like this.
+
 4. Open http://localhost:3000 to run the app.
