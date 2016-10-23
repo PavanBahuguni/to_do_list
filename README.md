@@ -6,6 +6,9 @@ It is based on MEAN(MongoDB, ExpressJS, AngularJS, nodeJS).
 demo at https://mean-to-do-list.herokuapp.com/
 
 #How to run:
-[1]. Download and Install nodejs from https://nodejs.org/en/download/<br>
+1. Download and Install nodejs from https://nodejs.org/en/download/<br>
 2. Clone this Project<br>
-3. Run the command <font color="green">npm install</font><br/>
+3. Change current working directory to project directory and run the command 
+    ```command
+    npm install
+    ```
