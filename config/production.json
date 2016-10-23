@@ -1,4 +1,4 @@
 {
-	"dbURL":"mongodb://todolistuser:rootuser@ds063946.mlab.com:63946/to-do-list"
+	"dbURL":""
 	
 }
