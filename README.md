@@ -8,4 +8,4 @@ demo at https://mean-to-do-list.herokuapp.com/
 How to run:
 1. Download and Install nodejs from https://nodejs.org/en/download/
 2. Clone this Project
-3. Run the command npm install
+3. Run the command <font color="green">npm install</font>
