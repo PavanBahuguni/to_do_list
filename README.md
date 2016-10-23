@@ -9,6 +9,4 @@ demo at https://mean-to-do-list.herokuapp.com/
 1. Download and Install nodejs from https://nodejs.org/en/download/<br>
 2. Clone this Project<br>
 3. Change current working directory to project directory and run the command 
-    ```command
-    npm install
-    ```
+   > **Tip:** npm install
