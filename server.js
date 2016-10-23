@@ -32,7 +32,5 @@ var tasks=mongoose.model('tasks',new mongoose.Schema({
 require('./routes/routes.js')(app, express,tasks);
 
 
-//Use port by reading to environment variable(this will be helpful during producrion)
-app.set('port',process.env.port||3000);  
-app.listen(app.get('port'));
-console.log("App listening on port", app.get('port'));
+//Use port by reading to environment variable(this will be helpful during producrion) 
+app.listen(process.env.PORT || 3000);
