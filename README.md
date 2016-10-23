@@ -7,6 +7,7 @@ demo at https://mean-to-do-list.herokuapp.com/
 
 #How to run:
 1. Download and Install nodejs from https://nodejs.org/en/download/<br>
-2. Clone this Project<br>
-3. Change current working directory to project directory and run the command 
-  > **Tip:** To make sure mathematical expressions are rendered properly on your website, include **MathJax** into your template:
+2. Clone this Project.</br>
+3. Change current working directory to project directory and run the command.</br> 
+    **npm install**
+4. Open http://localhost:3000 to run the app.
