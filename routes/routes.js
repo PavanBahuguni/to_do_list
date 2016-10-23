@@ -23,14 +23,16 @@ module.exports=function(app, express, tasks){
 			text:req.body.text,
 			done:false
 		}, function(err){
-		if(err)
-			res.send(err);
-		});	
-		tasks.find(function(err, allTasks) {
+			if(err)
+				res.send(err);
+			//Find is added as a call back to create as newly inserted data also needs to be considered for returning.
+			tasks.find(function(err, allTasks) {
                 if (err)
                     res.send(err)
                 res.json(allTasks);
-        });
+        	});
+		});	
+		
 	}); 
 	
 	//DELETE route to remove a task with a perticular from list.
